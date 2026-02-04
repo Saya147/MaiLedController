@@ -18,3 +18,4 @@
    ```
 ## ⚖️ 开源协议与致谢
 本项目采用 GPL-3.0 协议开源。感谢 MajdataPlay 提供的协议参考
+![Rainbow](https://github.com/user-attachments/assets/42838816-b5bb-4ac3-b121-ae395eea53c3)
