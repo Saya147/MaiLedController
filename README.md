@@ -12,11 +12,10 @@
    在终端执行以下命令：
    ```bash
    pip install pyserial
-配置串口打开 main.py，将代码中的 com_port 变量修改为你的实际串口端口号（例如 COM21 或 /dev/ttyUSB0）。
+配置串口打开 main.py，将代码中的 com_port 变量修改为你的实际串口端口号（例如 COM21 ）。
 运行程序在终端执行以下命令启动控制器：
    ```bash
-运行
 python main.py
 ```
-⚖️ 开源协议与致谢
+##⚖️ 开源协议与致谢
 本项目采用 GPL-3.0 协议开源。感谢 MajdataPlay 提供的协议参考
