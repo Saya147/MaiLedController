@@ -13,7 +13,7 @@ def p(led, r, g, b, bri):
 
 try:
     with serial.Serial(com_port, baud_rate, timeout=0.5) as s:
-        print("💥 闪光弹已就绪！按下 Ctrl+C 停止（注意保护眼睛）")
+        print("💥 闪光弹已就绪！按下 Ctrl+C 停止")
         while True:            
             for i in range(8): 
                 s.write(p(i, 255, 255, 255, 1.0))
