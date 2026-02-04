@@ -17,5 +17,6 @@
    ```bash
 运行
 python main.py
+```
 ⚖️ 开源协议与致谢
 本项目采用 GPL-3.0 协议开源。感谢 MajdataPlay 提供的协议参考
