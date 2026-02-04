@@ -19,6 +19,6 @@ with serial.Serial(com_port, baud, timeout=0.5) as s:
             rgb = colorsys.hsv_to_rgb((offset - i/8.0) % 1.0, 1.0, 1.0)
             s.write(p(i, rgb[0]*255, rgb[1]*255, rgb[2]*255, 0.4))
         
-        s.write(T2)     # 发送生效指令
+        s.write(T2)     
         offset += 0.005  # 增加此值可提速
         time.sleep(0.01)
