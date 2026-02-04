@@ -2,6 +2,8 @@
 
 一个基于 Python 的 8 灯珠圆环控制器，协议逻辑参考自 [MajdataPlay](https://github.com/LingFeng-bbben/MajdataPlay)。
 
+![Rainbow](https://github.com/user-attachments/assets/42838816-b5bb-4ac3-b121-ae395eea53c3)
+
 ## 🚀 功能特性
 - **基础控制** (`main.py`): 通过串口发送指令，精确控制单个灯珠的颜色与亮度。
 - **参数格式**: `灯号(0-7),R,G,B(0-255),亮度(0.0-1.0)`。
@@ -18,4 +20,3 @@
    ```
 ## ⚖️ 开源协议与致谢
 本项目采用 GPL-3.0 协议开源。感谢 MajdataPlay 提供的协议参考
-![Rainbow](https://github.com/user-attachments/assets/42838816-b5bb-4ac3-b121-ae395eea53c3)
