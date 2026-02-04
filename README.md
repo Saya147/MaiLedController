@@ -11,14 +11,12 @@
 1. **安装依赖**:
    ```bash
    pip install pyserial
-配置串口: 打开 main.py，将 com_port 修改为你的实际端口号（如 COM21 ）。
-
+配置串口:
+打开 main.py，将 com_port 修改为你的实际端口号（如 COM21 ）。
 运行:
-
-   ```bash
-   python main.py
-
+bash
+运行
+python main.py
 ⚖️ 开源协议与致谢
 本项目采用 GPL-3.0 协议开源。
-
 感谢 MajdataPlay 提供的协议参考。
